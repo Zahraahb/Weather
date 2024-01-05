@@ -1,0 +1,85 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weather</title>
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+        
+    </head>
+    <body>
+        <!-- ===================================nav-starts======================================== -->
+        <nav class="navbar  w-100 position-fixed">
+            <div class="container">
+              <a class="navbar-brand " href="index.html">
+                <i class=" bi-cloud m-0 me-2 d-inline-block"></i>
+                <span class="d-inline-block  text-white">Weather</span>
+              </a>
+            </div>
+          </nav>
+
+        <!-- =====================================nav-ends========================================= -->
+        <!-- ==================================section-starts====================================== -->
+
+          <section class="weather d-flex  justify-content-between align-items-center">
+            <div class="container-lg w-75 margin ">
+
+                <form action="" class="w-100 mt-5">
+                    <input type="text" class="form-control " placeholder="Find your location..." id="search">
+                    <button class="btn  text-white ">Find</button>
+                </form>
+
+                <div class="row d-flex justify-content-center align-items-center mt-5">
+                    <div class="col-md-6  " id="today-forecast">
+
+                    
+
+                    </div>
+                   <div class="col-md-5 d-grid gap-3 gap-xxl-4 " id="next-forecast">
+                    
+                     
+                   </div>
+                </div>
+            </div>
+          </section>
+
+        <!-- ==================================section-ends====================================== -->  
+        <!-- ==================================footer-starts====================================== --> 
+
+        <footer class="d-flex  justify-content-center  align-items-center" >
+            <div class="container w-75">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-md-7  ">
+                        <form action="">
+                            <input type="text" class="form-control " placeholder="Enter your email to subscribe..." id="search">
+                        <button class="btn  text-white ">Subscribe</button>
+                        </form>
+
+                    </div>
+                    <div class="col-md-5 d-flex justify-content-center">
+                      <div class="">
+                        <a  href="https://www.facebook.com/" target="_blank" ><i class="fa-brands fa-facebook-f  h4"></i></a>
+                        <a  href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter  h4"></i></a>
+                        <a  href="" target="_blank"><i class="fa-brands fa-google-plus-g  h4" ></i></a>
+                        <a  href="" target="_blank" ><i class="fa-brands fa-pinterest-p  h4"></i></a>
+                      </div>
+                        
+                    </div>
+                </div>
+            </div>
+
+
+        </footer>
+        <!-- ==================================footer-ends========================================= -->
+
+
+
+
+
+        <script src="main.js"></script>
+    </body>
+</html>
+
+

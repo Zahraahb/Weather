@@ -1,0 +1,127 @@
+/* ===============================nav-starts=============================== */
+nav{
+
+    background-color: #052738;
+    z-index: 99;
+}
+
+.navbar i{
+    color:#22a8d9;
+    font-size: 50px;
+    
+
+}
+.navbar span{
+    transform: translateY(-25%);
+    font-size: 25px;
+}
+/* ====================================nav-ends================================= */
+/* ===================================section-starts========================= */
+.weather{
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../City-Background-of-Daylight-Graphics-3833953-1.jpeg);
+   height: fit-content;
+   background-position: center center;
+   background-size: cover;
+   padding-block: 80px;
+}
+
+form{
+    position: relative;
+}
+form input{
+    height:45px;
+    
+
+}
+.form-control{
+    border-radius: 30px;
+}
+.btn{
+    position: absolute;
+    right: 5px;
+    top: 3px;
+    border-radius: 30px;
+    padding-inline: 25px;
+    background-color: #052738 ;
+    transition: all 0.6s;
+
+
+
+}
+.btn:hover{
+    background-color: #22a8d9;
+}
+.card{
+    border-radius: 10px !important;
+    border-width: 0px !important;
+}
+
+
+.main i{
+    font-size:100px;
+}
+.main h1{
+    font-size: 70px;
+    margin-top: 0px;
+}
+.next i{
+    font-size: 30px;
+    margin-top: 5px;
+    
+
+}
+.next h1{
+    font-size: 25px;
+    margin-bottom: 2px !important;
+
+}
+.lower{
+    background-color: #9ba8ae;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius:10px ;
+}
+.upper{
+    background-color: #052738;
+    border-top-right-radius: 10px;
+    border-top-left-radius:10px ;
+}
+.main img{
+    width: 30%;
+    object-fit: cover;
+}
+/* ====================================section-ends===================================== */
+/* =====================================footer-starts================================== */
+
+footer{
+    height: 150px;
+    background-color: #9BA8AE;
+    padding-block: 20px;
+}
+footer a{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    background: rgba(0,0,0,0.3);
+    position: relative;
+    margin-inline: 5px;
+    border-radius: 50%;
+    transition: all 0.6s;
+}
+footer a i{
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    left: 50% ;
+    color:#22a8d9;
+    transition: all 0.6s;
+   
+}
+footer a:hover{
+    background-color: #22a8d9;
+}
+footer a:hover i{
+    color: #ffffff;
+
+}
+
+/* ==============================footer-ends================================ */
